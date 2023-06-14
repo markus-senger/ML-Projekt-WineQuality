@@ -15987,7 +15987,7 @@ Name: quality, dtype: int64
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">XX_train</span><span class="p">,</span> <span class="n">XX_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">goodQuality</span><span class="p">,</span> <span class="n">train_size</span><span class="o">=</span><span class="mf">0.2</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">XX_train</span><span class="p">,</span> <span class="n">XX_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">goodQuality</span><span class="p">,</span> <span class="n">train_size</span><span class="o">=</span><span class="mf">0.2</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">21</span><span class="p">)</span>
 
 <span class="c1"># scale</span>
 <span class="n">sc_X</span> <span class="o">=</span> <span class="n">StandardScaler</span><span class="p">()</span>
@@ -16026,7 +16026,7 @@ Name: quality, dtype: int64
 <pre>Good or Bad Quality:
 Classifier: Random Forest
 Train Accuracy: 1.0
-Test Accuracy: 0.8765625
+Test Accuracy: 0.8796875
 ---------------------
 </pre>
 </div>
